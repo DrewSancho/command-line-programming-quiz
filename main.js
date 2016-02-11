@@ -321,3 +321,5 @@ if (rating == 9 || rating == 10) {
 	else if (rating <= 8) {
 		console.log ("I'll try harder next time");
 	}
+	else if (rating.toLowerCase() === 'dank');
+		console.log ("Right on Playa!!!");
