@@ -315,9 +315,9 @@ console.log('How would you rate this quiz 0 - 10');
 
 var rating = prompt();
 
-if (rating === 9 || rating === 10) {
-	console.log('Thank you for your feedback.')
+if (rating == 9 || rating == 10) {
+	console.log('Thank you for your feedback.');
 }
 	else if (rating <= 8) {
-		console.log ("I'll try harder next time")
+		console.log ("I'll try harder next time");
 	}
